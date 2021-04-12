@@ -77,7 +77,7 @@ export default function Home() {
             style={logo}
             width="300"
             height="300"
-            src="/logo512.png"
+            src="/logo.png"
             alt="YoHuman Logo"
             layout="responsive"
           />
@@ -85,7 +85,7 @@ export default function Home() {
           <img
             width="300"
             height="300"
-            src="/logo512.png"
+            src="/logo.svg"
             alt="YoHuman Logo"
             style={logo}
           />
