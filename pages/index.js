@@ -45,7 +45,7 @@ export default function Home() {
           sizes="16x16"
           href="%PUBLIC_URL%/favicon-16x16.png"
         />
-        <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <link
           rel="mask-icon"
           href="%PUBLIC_URL%/safari-pinned-tab.svg"
