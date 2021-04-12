@@ -26,7 +26,24 @@ export default function Home() {
     <div style={container}>
       <Head>
         <title>YoHuman</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon-16x16.png"
+          sizes="16x16"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicon-96x96.png"
+          sizes="96x96"
+        />
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Yo! Human" />
         <meta name="theme-color" content="#0B6DE7" />
