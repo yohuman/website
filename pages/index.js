@@ -2,7 +2,6 @@ export const config = { amp: true };
 import Head from "next/head";
 
 const main = {
-  padding: "5rem 0",
   flex: 1,
   display: "flex",
   flexDirection: "column",
