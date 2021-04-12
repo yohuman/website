@@ -5,7 +5,6 @@ import Head from "next/head";
 const main = {
   flex: 1,
   display: "flex",
-  flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
   height: "100vh"
