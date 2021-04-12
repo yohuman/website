@@ -25,34 +25,45 @@ export default function Home() {
   return (
     <div style={container}>
       <Head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Yo Human!" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href="/icons/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/icons/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/icons/android-chrome-192x192.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/icons/favicon-16x16.png"
         />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d83934" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="apple-mobile-web-app-title" content="Yo Human!" />
-        <meta name="application-name" content="Yo Human!" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-config" content="/browserconfig.xml" />
-        <meta name="theme-color" content="#ffffff" />
+        <link rel="manifest" href="/icons/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/icons/safari-pinned-tab.svg"
+          color="#0b6de7"
+        />
+        <link rel="shortcut icon" href="/icons/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="YoHuman!" />
+        <meta name="application-name" content="YoHuman!" />
+        <meta name="msapplication-TileColor" content="#0b6de7" />
+        <meta
+          name="msapplication-TileImage"
+          content="/icons/mstile-144x144.png"
+        />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="theme-color" content="#0b6de7" />
       </Head>
 
       <main style={main}>
