@@ -65,6 +65,7 @@ export default function Home() {
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
         <meta name="theme-color" content="#0b6de7" />
         <link rel="canonical" href="https://www.yohuman.io/" />
+        <meta name="description" content="YoHuman!."></meta>
         <title>YoHuman!</title>
       </Head>
 
