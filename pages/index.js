@@ -1,16 +1,43 @@
+export const config = { amp: true };
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+
+const main = {
+  padding: "5rem 0",
+  flex: 1,
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center"
+};
+
+const container = {
+  background: "#0b6de7",
+  width: "100vw",
+  height: "100vh"
+};
+
+const logo = {
+  width: "300px",
+  height: "300px"
+};
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div style={container}>
       <Head>
         <title>YoHuman</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <img src="/logo.svg" alt="YoHuman Logo" />
+      <main style={main}>
+        <amp-img
+          style={logo}
+          width="300"
+          height="300"
+          src="/logo512.png"
+          alt="YoHuman Logo"
+          layout="responsive"
+        />
       </main>
 
       <footer></footer>
