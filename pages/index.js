@@ -30,7 +30,13 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Yo! Human" />
         <meta name="theme-color" content="#0B6DE7" />
+        <link rel="canonical" href="https://www.yohuman.io/" />
         <meta charset="utf-8" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-icon-180x180.png"
+        ></link>
       </Head>
 
       <main style={main}>
