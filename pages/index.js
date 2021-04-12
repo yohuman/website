@@ -23,6 +23,7 @@ const logo = {
 };
 
 export default function Home() {
+  const isAmp = useAmp();
   return (
     <div style={container}>
       <Head>
