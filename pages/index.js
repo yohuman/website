@@ -25,35 +25,41 @@ export default function Home() {
   return (
     <div style={container}>
       <Head>
-        <title>YoHuman</title>
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon-16x16.png"
-          sizes="16x16"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon-32x32.png"
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon-96x96.png"
-          sizes="96x96"
-        />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="description" content="Yo! Human" />
-        <meta name="theme-color" content="#0B6DE7" />
-        <link rel="canonical" href="https://www.yohuman.io/" />
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Yo Human!" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-icon-180x180.png"
-        ></link>
+          href="%PUBLIC_URL%/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="%PUBLIC_URL%/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="%PUBLIC_URL%/favicon-16x16.png"
+        />
+        <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="%PUBLIC_URL%/safari-pinned-tab.svg"
+          color="#d83934"
+        />
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="Yo Human!" />
+        <meta name="application-name" content="Yo Human!" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+          name="msapplication-config"
+          content="%PUBLIC_URL%/browserconfig.xml"
+        />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
 
       <main style={main}>
