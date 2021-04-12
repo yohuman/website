@@ -1,3 +1,4 @@
+import { useAmp } from "next/amp";
 export const config = { amp: "hybrid" };
 import Head from "next/head";
 
@@ -70,14 +71,24 @@ export default function Home() {
       </Head>
 
       <main style={main}>
-        <amp-img
-          style={logo}
-          width="300"
-          height="300"
-          src="/logo512.png"
-          alt="YoHuman Logo"
-          layout="responsive"
-        />
+        {isAmp ? (
+          <amp-img
+            style={logo}
+            width="300"
+            height="300"
+            src="/logo512.png"
+            alt="YoHuman Logo"
+            layout="responsive"
+          />
+        ) : (
+          <img
+            width="300"
+            height="300"
+            src="/logo512.png"
+            alt="YoHuman Logo"
+            style={logo}
+          />
+        )}
       </main>
 
       <footer></footer>
