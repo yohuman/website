@@ -26,6 +26,7 @@ export default function Home() {
     <div style={container}>
       <Head>
         <title>YoHuman</title>
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Yo! Human" />
