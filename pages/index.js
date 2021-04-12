@@ -1,4 +1,4 @@
-export const config = { amp: true };
+export const config = { amp: "hybrid" };
 import Head from "next/head";
 
 const main = {
