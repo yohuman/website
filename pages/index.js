@@ -31,34 +31,27 @@ export default function Home() {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="%PUBLIC_URL%/apple-touch-icon.png"
+          href="/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="%PUBLIC_URL%/favicon-32x32.png"
+          href="/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="%PUBLIC_URL%/favicon-16x16.png"
+          href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <link
-          rel="mask-icon"
-          href="%PUBLIC_URL%/safari-pinned-tab.svg"
-          color="#d83934"
-        />
-        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d83934" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="apple-mobile-web-app-title" content="Yo Human!" />
         <meta name="application-name" content="Yo Human!" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta
-          name="msapplication-config"
-          content="%PUBLIC_URL%/browserconfig.xml"
-        />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
