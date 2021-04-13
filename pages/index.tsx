@@ -1,15 +1,8 @@
 import { useAmp } from "next/amp";
+import Link from "next/link";
 export const config = { amp: "hybrid" };
 // import { ExampleComponent } from "lollipop-components";
 import Head from "next/head";
-
-const main = {
-  flex: 1,
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  height: "100vh"
-};
 
 const container = {
   background: "#0b6de7",
@@ -17,9 +10,23 @@ const container = {
   height: "100vh"
 };
 
+const main = {
+  display: "grid",
+  justifyContent: "center",
+  alignContent: "center",
+  height: "100vh"
+};
+
 const logo = {
   width: "300px",
   height: "300px"
+};
+
+const github = {
+  width: "20px",
+  height: "20px",
+  justifySelf: "center",
+  cursor: "pointer"
 };
 
 export default function Home() {
@@ -91,6 +98,26 @@ export default function Home() {
             style={logo}
           />
         )}
+        <Link href="https://github.com/yohuman">
+          {isAmp ? (
+            <amp-img
+              style={github}
+              width="20"
+              height="20"
+              src="/github.png"
+              alt="GitHub Logo"
+              layout="responsive"
+            />
+          ) : (
+            <img
+              width="20"
+              height="20"
+              src="/github.svg"
+              alt="GitHub Logo"
+              style={github}
+            />
+          )}
+        </Link>
       </main>
 
       <footer></footer>
