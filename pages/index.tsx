@@ -98,8 +98,9 @@ export default function Home() {
             style={logo}
           />
         )}
-        <Link href="https://github.com/yohuman">
-          {isAmp ? (
+
+        {isAmp ? (
+          <a href="https://github.com/yohuman">
             <amp-img
               style={github}
               width="20"
@@ -108,7 +109,9 @@ export default function Home() {
               alt="GitHub Logo"
               layout="responsive"
             />
-          ) : (
+          </a>
+        ) : (
+          <Link href="https://github.com/yohuman">
             <img
               width="20"
               height="20"
@@ -116,8 +119,8 @@ export default function Home() {
               alt="GitHub Logo"
               style={github}
             />
-          )}
-        </Link>
+          </Link>
+        )}
       </main>
 
       <footer></footer>
