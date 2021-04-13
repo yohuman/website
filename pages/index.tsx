@@ -1,7 +1,6 @@
 import { useAmp } from "next/amp";
 import Link from "next/link";
 export const config = { amp: "hybrid" };
-// import { ExampleComponent } from "lollipop-components";
 import Head from "next/head";
 
 const container = {
@@ -79,7 +78,6 @@ export default function Home() {
       </Head>
 
       <main style={main}>
-        {/* <ExampleComponent text="sdf" /> */}
         {isAmp ? (
           <amp-img
             style={logo}
